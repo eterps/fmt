@@ -1,0 +1,15 @@
+{application, fmt,
+ [{description, "Utilities for formatting Strings."},
+  {vsn, "1.0.0"},
+  {registered, []},
+  {applications,
+   [kernel,
+    stdlib,
+    gleam_stdlib
+   ]},
+  {env,[]},
+  {modules, []},
+
+  {licenses, ["Apache 2.0"]},
+  {links, []}
+]}.
